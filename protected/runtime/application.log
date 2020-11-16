@@ -1,0 +1,8 @@
+2020/11/16 14:08:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "?r=gii". in C:\OSPanel\domains\yii1.1.loc\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OSPanel\domains\yii1.1.loc\www\framework\web\CWebApplication.php(141): CWebApplication->runController('?r=gii')
+#1 C:\OSPanel\domains\yii1.1.loc\www\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\yii1.1.loc\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=?r=gii
+---
