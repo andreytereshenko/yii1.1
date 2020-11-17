@@ -317,3 +317,5 @@ REQUEST_URI=/index.php?r=post/create
 in C:\OSPanel\domains\yii1.1.loc\www\protected\views\post\_form.php (23)
 in C:\OSPanel\domains\yii1.1.loc\www\protected\views\post\create.php (18)
 in C:\OSPanel\domains\yii1.1.loc\www\protected\controllers\PostController.php (78)
+2020/11/16 18:55:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testyii1.1.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2020/11/16 18:58:10 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testyii1.1.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
