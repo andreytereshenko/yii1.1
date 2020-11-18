@@ -79,8 +79,28 @@ class Post extends CActiveRecord
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('description',$this->description,true);
 
+		$sort= new CSort();
+		$sort->attributes = array(
+            'title'=> array(
+                'asc'=>'title',
+                'desc'=>'title desc',
+            ),
+            'id'=> array(
+                'asc'=>'id',
+                'desc'=>'id desc',
+            ),
+            'description'=> array(
+                'asc'=>'description',
+                'desc'=>'description desc',
+            )
+        );
+
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+                'pagination'=>array(
+                    'pageSize'=>11
+                ),
+            'sort'=>$sort,
 		));
 	}
 
