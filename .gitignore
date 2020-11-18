@@ -1,6 +1,7 @@
 /assets
 # Убрать папку /protected/runtime, но оставить в ней подпапку gii-1.1.22
 /protected/runtime/*
+/protected/runtime/gii-1.1.22/*
 !/protected/runtime/.gitkeep
 !/protected/runtime/gii-1.1.22/.gitkeep
 
