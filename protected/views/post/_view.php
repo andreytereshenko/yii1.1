@@ -13,6 +13,10 @@
 	<?php echo CHtml::encode($data->title); ?>
 	<br />
 
+    <b><?php echo CHtml::encode($data->getAttributeLabel('category')); ?>:</b>
+    <?php echo CHtml::encode($data->category->title); ?>
+    <br />
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('description')); ?>:</b>
 	<?php echo CHtml::encode($data->description); ?>
 	<br />
